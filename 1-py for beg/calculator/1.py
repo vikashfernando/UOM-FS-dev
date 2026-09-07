@@ -29,6 +29,8 @@ def getInput():
         mainMenu()
         getInput()
 
+    print("test1 success")
+
 #function3 - validate inputs
 def inputValidation(num):
     if num in validInputs:
@@ -37,6 +39,21 @@ def inputValidation(num):
 #function4 - "+"
 def add(number1,number2):
     answer=number1+number2
+    return answer
+
+#function5 - "-"
+def sub(number1,number2):
+    answer=number1-number2
+    return answer
+
+#function6 - "*"
+def mul(number1,number2):
+    answer=number1-number2
+    return answer
+
+#function7 - "/"
+def div(number1,number2):
+    answer=number1/number2
     return answer
 
 

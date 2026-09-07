@@ -15,6 +15,7 @@ def mainMenu():
     print("4. /")
     print("5. **")
     print("6. %")
+
     print(" ")
     print("> enter '#' to terminate the program")
     print("> enter '$' to reset")
@@ -22,19 +23,37 @@ def mainMenu():
     print("*"*40)
 
 
+
+
 # function2 - get inputs from user
 def getInput():
-    userInput=input("input: ")
-    while inputValidation(userInput)!=1:
-        mainMenu()
-        getInput()
+    while True:
+        userInput=input("input: ")
 
-    print("test1 success")
+        if inputValidation(userInput)==True:
+            print("test1-pass input validation")
+            return userInput
+
+            if userInput=="+":
+
+                add(num1,num2)
 
 #function3 - validate inputs
 def inputValidation(num):
-    if num in validInputs:
-        return 1
+    return num in validInputs
+
+
+
+
+
+
+
+
+
+
+
+#--------------------------------------------
+
         
 #function4 - "+"
 def add(number1,number2):
@@ -48,13 +67,20 @@ def sub(number1,number2):
 
 #function6 - "*"
 def mul(number1,number2):
-    answer=number1-number2
+    answer=number1*number2
     return answer
 
 #function7 - "/"
 def div(number1,number2):
     answer=number1/number2
     return answer
+
+#--------------------------------------------
+
+
+
+
+
 
 
 

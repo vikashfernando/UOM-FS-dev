@@ -25,7 +25,7 @@ def mainMenu():
 # function2 - get inputs from user
 def getInput():
     userInput=input("input: ")
-    while inputValidation(userInput)==1:
+    while inputValidation(userInput)!=1:
         mainMenu()
         getInput()
 
@@ -36,6 +36,7 @@ def inputValidation(num):
         
 #function4 - "+"
 def add(number1,number2):
+    ans+
 
 
 

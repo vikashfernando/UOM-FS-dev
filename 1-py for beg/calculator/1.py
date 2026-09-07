@@ -36,7 +36,8 @@ def inputValidation(num):
         
 #function4 - "+"
 def add(number1,number2):
-    ans+
+    answer=number1+number2
+    return answer
 
 
 

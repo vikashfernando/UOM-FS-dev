@@ -27,20 +27,11 @@ def mainMenu():
 
 # function2 - get inputs from user
 def getInput():
-    while True:
-        userInput=input("input: ")
 
-        if inputValidation(userInput)==True:
-            print("test1-pass input validation")
-            return userInput
-
-            if userInput=="+":
-
-                add(num1,num2)
 
 #function3 - validate inputs
 def inputValidation(num):
-    return num in validInputs
+
 
 
 
@@ -74,6 +65,15 @@ def mul(number1,number2):
 def div(number1,number2):
     answer=number1/number2
     return answer
+
+def div(number1,number2):
+    answer=number1**number2
+    return answer
+
+def div(number1,number2):
+    answer=number1%number2
+    return answer
+
 
 #--------------------------------------------
 

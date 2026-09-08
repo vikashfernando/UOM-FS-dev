@@ -45,12 +45,14 @@ def operations(userInput):
         number1=input("number 1: ")
         if number1=="$":
             print("$")
+            operations(userInput)
         elif number1=="#":
             print("#")
         else:
             number2=input("number 2: ")
             if number2=="$":
                 print("$")
+                operations(userInput)
             elif number2=="#":
                 print("#")
             else:
@@ -63,12 +65,14 @@ def operations(userInput):
         number1=input("number 1: ")
         if number1=="$":
             print("$")
+            operations(userInput)
         elif number1=="#":
             print("#")
         else:
             number2=input("number 2: ")
             if number2=="$":
                 print("$")
+                operations(userInput)
             elif number2=="#":
                 print("#")
             else:
@@ -78,12 +82,14 @@ def operations(userInput):
         number1=input("number 1: ")
         if number1=="$":
             print("$")
+            operations(userInput)
         elif number1=="#":
             print("#")
         else:
             number2=input("number 2: ")
             if number2=="$":
                 print("$")
+                operations(userInput)
             elif number2=="#":
                 print("#")
             else:
@@ -93,12 +99,14 @@ def operations(userInput):
         number1=input("number 1: ")
         if number1=="$":
             print("$")
+            operations(userInput)
         elif number1=="#":
             print("#")
         else:
             number2=input("number 2: ")
             if number2=="$":
                 print("$")
+                operations(userInput)
             elif number2=="#":
                 print("#")
             else:
@@ -108,12 +116,14 @@ def operations(userInput):
         number1=input("number 1: ")
         if number1=="$":
             print("$")
+            operations(userInput)
         elif number1=="#":
             print("#")
         else:
             number2=input("number 2: ")
             if number2=="$":
                 print("$")
+                operations(userInput)
             elif number2=="#":
                 print("#")
             else:
@@ -123,12 +133,14 @@ def operations(userInput):
         number1=input("number 1: ")
         if number1=="$":
             print("$")
+            operations(userInput)
         elif number1=="#":
             print("#")
         else:
             number2=input("number 2: ")
             if number2=="$":
                 print("$")
+                operations(userInput)
             elif number2=="#":
                 print("#")
             else:
@@ -148,31 +160,56 @@ def operations(userInput):
 def add(number1,number2):
     answer=int(number1)+int(number2)
     print(answer)
+    print("-"*40)
+    print("have a nice day")
+    print("-"*40)
+    mainProgram()
 
 #function5 - "-"
 def sub(number1,number2):
     answer=int(number1)-int(number2)
     print(answer)
+    print("-"*40)
+    print("have a nice day")
+    print("-"*40)
+    mainProgram()
 
 #function6 - "*"
 def mul(number1,number2):
     answer=int(number1)*int(number2)
     print(answer)
+    print("-"*40)
+    print("have a nice day")
+    print("-"*40)
+    mainProgram()
 
 #function7 - "/"
 def div(number1,number2):
     answer=int(number1)/int(number2)
     print(answer)
+    print("-"*40)
+    print("have a nice day")
+    print("-"*40)
+    mainProgram()
 
 #function8 - "**"
 def pow(number1,number2):
     answer=int(number1)**int(number2)
+    print("-"*40)
     print(answer)
+    print("-"*40)
+    print("have a nice day")
+    print("-"*40)
+    mainProgram()
 
 #function9 - "%"
 def rem(number1,number2):
     answer=int(number1)%int(number2)
     print(answer)
+    print("-"*40)
+    print("have a nice day")
+    print("-"*40)
+    mainProgram()
 
 
 #--------------------------------------------

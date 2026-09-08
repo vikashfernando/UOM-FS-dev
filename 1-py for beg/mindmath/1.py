@@ -6,7 +6,7 @@ validInputs=["1","2","3","4","5","6","#","$"]
 #function1 - main menu
 def mainMenu():   
     print("*"*40)
-    print(" "*14+"Smart Cal")
+    print(" "*14+"xxxxx xxx")
     print("*"*40)
     print(" ")
     print("1. +")

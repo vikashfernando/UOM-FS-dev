@@ -27,10 +27,17 @@ def mainMenu():
 
 # function2 - get inputs from user
 def getInput():
+    userInput=input("enter: ")
+    inputValidation(userInput)
 
 
 #function3 - validate inputs
 def inputValidation(num):
+    if num in validInputs:
+        print("valid input")
+        return True
+    else:
+        print("valid input")
 
 
 

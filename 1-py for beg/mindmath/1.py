@@ -69,6 +69,7 @@ def operations(userInput):
         rem(number1,number2)
     elif userInput=="$":
         print("$ detected")
+        
     else:
         print("# detected")
 

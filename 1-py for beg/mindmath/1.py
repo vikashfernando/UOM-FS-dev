@@ -37,7 +37,7 @@ def inputValidation(num):
         print("valid input")
         return True
     else:
-        print("valid input")
+        print("invalid input")
 
 
 

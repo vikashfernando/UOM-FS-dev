@@ -78,40 +78,38 @@ def getOperationsInputs():
     number2=input("number 2: ")
 
 
-
-
-
-
 #--------------------------------------------
 
         
 #function4 - "+"
 def add(number1,number2):
     answer=int(number1)+int(number2)
-    return answer
+    print(answer)
 
 #function5 - "-"
 def sub(number1,number2):
     answer=int(number1)-int(number2)
-    return answer
+    print(answer)
 
 #function6 - "*"
 def mul(number1,number2):
     answer=int(number1)*int(number2)
-    return answer
+    print(answer)
 
 #function7 - "/"
 def div(number1,number2):
     answer=int(number1)/int(number2)
-    return answer
+    print(answer)
 
+#function8 - "**"
 def pow(number1,number2):
     answer=int(number1)**int(number2)
-    return answer
+    print(answer)
 
+#function9 - "%"
 def rem(number1,number2):
     answer=int(number1)%int(number2)
-    return answer
+    print(answer)
 
 
 #--------------------------------------------

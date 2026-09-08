@@ -30,8 +30,11 @@ def getInput():
 # function3 - validate inputs
 def inputValidation(userInput):
     if userInput in validInputs:
-        print("valid input")
-        operations(userInput)
+        if userInput=="#":
+            print("good bye...")
+        else:
+            print("valid input")
+            operations(userInput)
     else:
         print("invalid input")
 
@@ -40,43 +43,102 @@ def operations(userInput):
     if userInput=="1":
         print("add mode")
         number1=input("number 1: ")
-        number2=input("number 2: ")
-        add(number1,number2)
+        if number1=="$":
+            print("$")
+        elif number1=="#":
+            print("#")
+        else:
+            number2=input("number 2: ")
+            if number2=="$":
+                print("$")
+            elif number2=="#":
+                print("#")
+            else:
+                add(number1,number2)
+
+
+
     elif userInput=="2":
         print("sub mode")
         number1=input("number 1: ")
-        number2=input("number 2: ")
-        sub(number1,number2)
+        if number1=="$":
+            print("$")
+        elif number1=="#":
+            print("#")
+        else:
+            number2=input("number 2: ")
+            if number2=="$":
+                print("$")
+            elif number2=="#":
+                print("#")
+            else:
+                sub(number1,number2)
     elif userInput=="3":
         print("mul mode")
         number1=input("number 1: ")
-        number2=input("number 2: ")
-        mul(number1,number2)
+        if number1=="$":
+            print("$")
+        elif number1=="#":
+            print("#")
+        else:
+            number2=input("number 2: ")
+            if number2=="$":
+                print("$")
+            elif number2=="#":
+                print("#")
+            else:
+                mul(number1,number2)
     elif userInput=="4":
         print("div mode")
         number1=input("number 1: ")
-        number2=input("number 2: ")
-        div(number1,number2)
+        if number1=="$":
+            print("$")
+        elif number1=="#":
+            print("#")
+        else:
+            number2=input("number 2: ")
+            if number2=="$":
+                print("$")
+            elif number2=="#":
+                print("#")
+            else:
+                div(number1,number2)
     elif userInput=="5":
         print("pow mode")
         number1=input("number 1: ")
-        number2=input("number 2: ")
-        pow(number1,number2)
+        if number1=="$":
+            print("$")
+        elif number1=="#":
+            print("#")
+        else:
+            number2=input("number 2: ")
+            if number2=="$":
+                print("$")
+            elif number2=="#":
+                print("#")
+            else:
+                pow(number1,number2)
     elif userInput=="6":
         print("rem mode")
         number1=input("number 1: ")
-        number2=input("number 2: ")
-        rem(number1,number2)
-    elif userInput=="$":
-        print("$ detected")
-        
+        if number1=="$":
+            print("$")
+        elif number1=="#":
+            print("#")
+        else:
+            number2=input("number 2: ")
+            if number2=="$":
+                print("$")
+            elif number2=="#":
+                print("#")
+            else:
+                rem(number1,number2)
     else:
         print("# detected")
+        print("good bye....")
 
 # function5 - to get 2 inputs
-def getOperationsInputs():
-    number1=input("number 1: ")
-    number2=input("number 2: ")
+
 
 
 #--------------------------------------------
